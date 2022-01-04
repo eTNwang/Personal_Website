@@ -19,13 +19,37 @@
   
 }
 
+img {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
 
+.flex-container{
+  display:flex;
+}
+
+.img img{
+  margin: auto;
+  padding-top: 15vh;
+  padding-left: 35vh;
+  filter: invert(100%) drop-shadow(8px 0px 4px #03bafc);
+  width: 40%;
+  height: auto;
+}
 
 .nameblock {
-
-padding-top: 10vh; 
+margin: auto;
+padding-top: 10vh;
 padding-left: 10vh;
-width: 40%;
+width: 60%;
 font-size: 2vh;
 line-height: 3vh;
 }

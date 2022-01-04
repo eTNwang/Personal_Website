@@ -17,25 +17,29 @@
     
   }
 
+
+
   .flex-container {
+    height: 30%;
     padding-top: 5vh;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
-    gap: 20px;
     /* flex-direction: column; */
   }
   
   /* this selector selects all divs inside of .flex-container */
   .flex-container div {
-    width: 10%;
+    padding-left: 10vh;
+    padding-right: 10vh;
     line-height: 4vh;
-    flex: 1 1 auto;
+    flex: 1 1 0;
     text-align: center;
   }
 
   .flex-container .title{
     font-size: 3vh;
+    color: #03bafc ; 
   }
   
   
