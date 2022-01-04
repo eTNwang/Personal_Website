@@ -46,6 +46,7 @@ img {
 }
 
 .flex-container{
+  
   display:flex;
 }
 
@@ -73,10 +74,26 @@ font-size: 3vh;
 
 .socials{
 padding-left: 10vh;
-padding-top: 10vh;
+padding-bottom: 10vh;
 width: 40%;
 font-size: 3vh;
 word-spacing: 8px;
+}
+
+@media (max-width:1000px){ 
+  .flex-container {
+   flex-direction: column;
+}
+.img img{ 
+  padding-top: 5vh;
+   padding-left: 15vh;
+} 
+.nameblock{
+  width:50%;
+  margin: auto;
+  padding-left:0vh;
+}
+
 }
 
 a:hover{
