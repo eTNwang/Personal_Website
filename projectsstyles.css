@@ -76,6 +76,7 @@ word-spacing: 8px;
 
   .slider__inner {
     
+    
     position: absolute;
     
     top: 0;
@@ -125,27 +126,27 @@ word-spacing: 8px;
   
 .slider__caption {
 
-  font-size: 3vh;
+  font-size: 24px;
   
   color: white;
-  font-family: 'Open-sans' ,sans-serif;;
+  font-family: "-apple-system, "system-ui", "Segoe UI", Roboto,";
   font-weight: 700;
 }
 .slider__txt {
 
    text-align: center;
-  font-size: 2vh;
+  font-size: 2.2vh;
   line-height: 3.1vh;
   color: white;
   font-family: 'Open-sans' ,sans-serif;;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  max-width: 40vh;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  max-width: 43vh;
 }
 
 .slider {
 
-  margin: 10vh;
+  margin-left: 10vh;
 
 
   height: 60vh;
@@ -190,10 +191,10 @@ word-spacing: 8px;
 .loader {
 
   position: absolute;
-  right:10vh;
-  width: 230px;
-  height: 230px;
-  margin-top: 25vh;
+  right:30vh;
+  width: 250px;
+  height: 250px;
+  margin-top: 15vh;
   margin-right: 10vh;
   
 }
