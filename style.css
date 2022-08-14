@@ -6,17 +6,16 @@ body{
     background-attachment: fixed;
   width: 100%;
   overflow-x: hidden;
-  background: -webkit-radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%) fixed;
-  /* For Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%) fixed;
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%) fixed;
-  /* For Firefox 3.6 to 15 */
-  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%) fixed;
+  background: -webkit-radial-gradient(ellipse at bottom, #0c0d13 0%, #0c0d13 100%) fixed;
+
+  background: -o-radial-gradient(ellipse at bottom, #0c0d13 0%, #0c0d13 100%) fixed;
+
+  background: -moz-radial-gradient(ellipse at bottom, #0c0d13 0%, #0c0d13 100%) fixed;
+  background: radial-gradient(ellipse at right, #0c0d13 0%, #0c0d13 100%) fixed;
 
 }
 .container{
-  height: 100vh;
+  height: 100vh; 
   width: 100%;
   color: white;
   font-family: 'Open-sans' ,sans-serif;;
@@ -53,19 +52,21 @@ img {
 .img img{
   margin: auto;
   padding-top: 15vh;
-  padding-left: 35vh;
+  padding-right: 25vh;
+  padding-left: 10vh;
   filter: invert(100%) drop-shadow(8px 0px 4px #03bafc);
-  width: 40%;
+  width: 50vh;
   
 }
 
 .nameblock {
-margin: auto;
 padding-top: 10vh;
 padding-bottom: 10vh;
-padding-left: 10vh;
+margin-right: 10vh;
+margin-left: 10vh;
 font-size: 2vh;
 line-height: 3vh;
+width: 50vh;
 }
 
 .nameblock .title{
@@ -74,13 +75,14 @@ font-size: 3vh;
 
 .socials{
 padding-left: 10vh;
+
 padding-bottom: 10vh;
 width: 40%;
 font-size: 3vh;
 word-spacing: 8px;
 }
 
-@media (max-width:1000px){ 
+@media (max-width: 1000px){ 
   .flex-container {
    flex-direction: column;
 }
@@ -90,9 +92,9 @@ word-spacing: 8px;
 } 
 .nameblock{
   padding-bottom: 0vh;
-  width:50%;
   margin: auto;
-  padding-left:0vh;
+  padding-left:10vh;
+  padding-right:30vh;
 }
 
 }
@@ -130,7 +132,7 @@ transform: rotate(-45deg);
   color: var(--star-color);
   background: linear-gradient(45deg, #03bafc, transparent);
   border-radius: 50%;
-  filter: drop-shadow(0 0 6px #03bafc);
+  filter: drop-shadow(0 0 6px #f5f6f6);
   transform: translate3d(104em, 0, 0);
   animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
 }
